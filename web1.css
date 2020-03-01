@@ -1,0 +1,145 @@
+body {
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(computer.png) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+.navbar {
+	position: sticky;
+}
+#navheader {
+	color: #FFC920;
+	font-family: 'Trade Winds', ;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px #55554F;
+}
+.nav-item :hover {
+  display: inline-flex;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  border-spacing: 5px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: white;
+}
+#marquee-header {
+	  margin: 20px;
+	  font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+}
+.box{
+	width: 300px;
+	height: 400px;
+	background-color:#2d3436;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 20px;
+}
+.box h1{
+	color: #FFC920;
+	text-align: center;
+	text-shadow: 0px 0px 4px #55554F;
+	font-family: bitter;
+}
+.box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color:#FFC920;
+}
+.box input{
+	width: 80%;
+	margin-bottom: 10px;
+}
+.box input[type="text"],input[type="password"]
+{
+	border-radius: 10px;
+	border: 1px solid #FFC920;
+	background: transparent;
+	outline:transparent;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	padding-right: 40px;
+}
+.box input[type="submit"]
+{
+	border: none;
+	width:40%;
+	object-position: center;
+	outline: none;
+	height: 40px;
+	background: #f79E02;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+
+}
+.box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.box a{
+	color:blue;
+}
+
+@keyframes type {
+	0% {
+		color: black;
+	}
+}
+img {
+	max-width:100%;
+    height:auto;
+}
+#footer {
+	color: rgba(255,131,0,0.2);
+	text-shadow: 0px 0px 2px #000000;
+	position: relative;
+	margin-top: 120px;
+	clear: both;
+	float: left;
+
+}
+.Dev {
+	margin-top: 20px;
+	align-content: center;
+	border:5px lightblue solid;
+	padding: 30px;
+	display: block;
+	border-radius: 5px;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	text-decoration-style: none;
+	color: red;
+}
+.dev-name {
+	color: white;
+	font-family: fantasy;
+	font-weight: bold;
+}
+.dev-name:hover {
+	color: yellow;
+}
+.media-list {
+  padding: 2px;
+  float: right;
+}
+.media-list>li {
+	display: inline-grid;
+	border-width: 1px solid blue;
+}
+.media-list:hover {
+  color: red;
+  text-decoration: none;
+}
