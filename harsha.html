@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Login</title>
+
+	<link rel = "icon" type = "image/png" href = "Logo.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="harsha1.css">
+
+  <script type="text/javascript">
+
+  function validate() {
+
+    var name = document.f1.uid.value;
+
+    var pass = document.f1.pass.value;
+
+
+
+   /*if(name.length<8 || name.length>12)
+
+    {
+
+      alert("Please enter valid name in between 8-12 chars!");
+
+      document.f1.uid.focus;
+
+      exit;
+
+    }
+
+    if(pass.length<8 || pass.length>10)
+
+    {
+
+      alert("Please enter a valid passsword in between 8-10chars!");
+
+      document.f1.pass.focus;
+
+      exit;
+
+    }*/
+
+  }
+
+</script>
+
+</head>
+
+<body>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+    <nav class="navbar navbar-light" id="navbar" style="background-color: #FFF228;">
+
+  <a class="navbar-brand" href="index.html">
+
+    <!--<img src="H:/Logo.png" width="30" height="30" alt="">-->
+
+    <h3 id="navheader">MRCET</h3>
+
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="index.html">Home</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="Login.html">Login</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="About.html">About</a>
+
+      </li>
+
+      <li class="nav-item dropdown">
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          Contact Us
+
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+          <a class="dropdown-item" href="https://www.facebook.com/MRCETCLGOFFICIAL">Facebook</a>
+
+          <a class="dropdown-item" href="https://www.instagram.com/mrcetofficial">Instagram</a>
+
+        </div>
+
+      </li>
+
+    </ul>
+
+  </div>
+
+</nav>
+
+<div class="container-sm boxing">
+
+<div class="container-sm box">
+
+      <h1>Faculty</h1>
+
+      <br>
+
+      <form name="f1">
+
+      <h5>Username:</h5><input type="text" name="uid" placeholder="  Enter username" required="Required" minlength="8" maxlength="12"><br>
+
+      <h5>Password:</h5><input type="password" name="pass" placeholder="  Enter password" required="Required" minlength="8" maxlength="10"><br>
+
+      <center><input type="submit" value="Login" onclick="validate()"></center>
+
+      </form>
+
+        <a href="">Forgot Password?</a> 
+
+</div>
+
+
+
+<div class=" container-sm box1">
+
+      <h1>Head of Department</h1>
+
+      <br>
+
+      <form name="f1">
+
+      <h5>Username:</h5><input type="text" name="uid" placeholder="  Enter username" required="Required" minlength="8" maxlength="12"><br>
+
+      <h5>Password:</h5><input type="password" name="pass" placeholder="  Enter password" required="Required" minlength="8" maxlength="10"><br>
+
+      <center><input type="submit" value="Login" onclick="validate()"></center>
+
+      </form>
+
+        <a href="">Forgot Password?</a>
+
+  </div>
+
+
+</div>
+
+
+</body>
+
+</html>
